@@ -3,15 +3,15 @@
 This folder is a complete, self-contained static site. Push it to a public GitHub repo and GitHub will host it for free at:
 
 ```
-https://will-miraglia.github.io/flickme-legal/
+https://flickmeapp.com/
 ```
 
 …with these specific URLs (which all 9 docs in `appstore-submission/` already reference):
 
-- `https://will-miraglia.github.io/flickme-legal/privacy.html`
-- `https://will-miraglia.github.io/flickme-legal/terms.html`
-- `https://will-miraglia.github.io/flickme-legal/community-guidelines.html`
-- `https://will-miraglia.github.io/flickme-legal/support.html`
+- `https://flickmeapp.com/privacy.html`
+- `https://flickmeapp.com/terms.html`
+- `https://flickmeapp.com/community-guidelines.html`
+- `https://flickmeapp.com/support.html`
 
 ---
 
@@ -54,11 +54,11 @@ If you've never used Git on this machine, the push will prompt you to authentica
 
 Open these URLs in your browser. All four must load without error:
 
-- https://will-miraglia.github.io/flickme-legal/
-- https://will-miraglia.github.io/flickme-legal/privacy.html
-- https://will-miraglia.github.io/flickme-legal/terms.html
-- https://will-miraglia.github.io/flickme-legal/community-guidelines.html
-- https://will-miraglia.github.io/flickme-legal/support.html
+- https://flickmeapp.com/
+- https://flickmeapp.com/privacy.html
+- https://flickmeapp.com/terms.html
+- https://flickmeapp.com/community-guidelines.html
+- https://flickmeapp.com/support.html
 
 If any 404s, double-check the repo is public, the branch is `main`, and the source is `/ (root)`.
 
