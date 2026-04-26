@@ -155,7 +155,7 @@ footer.site a { color: var(--muted); }
 <h3>b) Information collected automatically</h3>
 <ul>
 <li><strong>Device push notification token</strong> — if you grant push permission, we store the Expo Push Token issued by your device so we can deliver notifications.</li>
-<li><strong>Camera input</strong> — used in real time to capture snaps. Camera frames are not recorded or transmitted unless you explicitly capture and send a snap.</li>
+<li><strong>Camera input</strong> — used in real time to capture flicks. Camera frames are not recorded or transmitted unless you explicitly capture and send a flick.</li>
 <li><strong>Authentication state</strong> — we store a session token (JWT) on your device in encrypted storage (Apple Keychain via <code>expo-secure-store</code>).</li>
 <li><strong>Basic technical logs</strong> — IP address, request paths, timestamps, and HTTP status codes are written to short-lived server logs for security and debugging. These logs are retained for <strong>30 days</strong>.</li>
 </ul>
@@ -170,18 +170,18 @@ footer.site a { color: var(--muted); }
 <h2>4. How we use your information</h2>
 <p>We use the information we collect to:</p>
 <ul>
-<li>Operate the App — authenticate you, deliver snaps and chat messages, calculate streaks, and send push notifications.</li>
+<li>Operate the App — authenticate you, deliver flicks and chat messages, calculate streaks, and send push notifications.</li>
 <li>Keep the App secure — detect abuse, enforce our <a href="https://will-miraglia.github.io/flickme-legal/terms.html">Terms of Service</a>, and respond to reports under our <a href="https://will-miraglia.github.io/flickme-legal/community-guidelines.html">Community Guidelines</a>.</li>
 <li>Communicate with you — respond to support requests, send transactional emails (e.g., password reset), and notify you of material changes to this policy.</li>
 <li>Comply with legal obligations and respond to lawful requests from authorities.</li>
 </ul>
 <p>We do <strong>not</strong> use your photos, captions, or chat messages to train any machine learning model, and we do not sell your information.</p>
 <hr />
-<h2>5. How snaps work (ephemeral content)</h2>
-<p>Snaps are designed to be ephemeral:</p>
+<h2>5. How flicks work (ephemeral content)</h2>
+<p>Flicks are designed to be ephemeral:</p>
 <ul>
-<li>A snap is automatically deleted from our servers <strong>24 hours after it is sent</strong>, regardless of whether the recipient has opened it.</li>
-<li>Once a snap is opened by the recipient, the underlying photo file is deleted from our storage immediately, and the database record is marked as viewed.</li>
+<li>A flick is automatically deleted from our servers <strong>24 hours after it is sent</strong>, regardless of whether the recipient has opened it.</li>
+<li>Once a flick is opened by the recipient, the underlying photo file is deleted from our storage immediately, and the database record is marked as viewed.</li>
 <li><strong>Important:</strong> "ephemeral" means we delete the file from our servers; it does <strong>not</strong> mean the recipient cannot screenshot or photograph it with another device. Do not send anything you would not want preserved.</li>
 </ul>
 <hr />
@@ -201,7 +201,7 @@ footer.site a { color: var(--muted); }
 <td><strong>Supabase, Inc.</strong></td>
 <td>PostgreSQL database + photo storage</td>
 <td>United States</td>
-<td>Account, friendship, snap, message, and push-token data</td>
+<td>Account, friendship, flick, message, and push-token data</td>
 </tr>
 <tr>
 <td><strong>Railway Corp.</strong></td>
@@ -243,11 +243,11 @@ footer.site a { color: var(--muted); }
 <td>Until you delete your account</td>
 </tr>
 <tr>
-<td>Snaps (photo files)</td>
+<td>Flicks (photo files)</td>
 <td>24 hours from send, or immediately on view</td>
 </tr>
 <tr>
-<td>Snap database records</td>
+<td>Flick database records</td>
 <td>30 days, then purged</td>
 </tr>
 <tr>
@@ -299,7 +299,7 @@ footer.site a { color: var(--muted); }
 <p>No system is perfectly secure. If we discover a breach affecting your information, we will notify you and the relevant authorities as required by law.</p>
 <hr />
 <h2>11. Push notifications</h2>
-<p>If you opt in, we use Apple Push Notification service (via Expo) to send you alerts about new snaps, messages, and friend requests. You can disable push notifications at any time in <strong>iOS Settings → Notifications → FlickMe</strong>. Disabling notifications does not delete your account or stop the underlying messages from being delivered the next time you open the App.</p>
+<p>If you opt in, we use Apple Push Notification service (via Expo) to send you alerts about new flicks, messages, and friend requests. You can disable push notifications at any time in <strong>iOS Settings → Notifications → FlickMe</strong>. Disabling notifications does not delete your account or stop the underlying messages from being delivered the next time you open the App.</p>
 <hr />
 <h2>12. Changes to this policy</h2>
 <p>If we make material changes to this policy, we will notify you in-app and/or by email at least <strong>7 days</strong> before the changes take effect. The "Last updated" date at the top of this policy will always show the most recent version.</p>
