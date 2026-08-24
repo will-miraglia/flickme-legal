@@ -33,7 +33,7 @@ Open Terminal at this folder and run (replace nothing — these commands are cor
 cd /Users/willmiraglia/Documents/Work/FlickMe/flickme-legal
 git init
 git add .
-git commit -m "Initial commit: FlickMe legal pages"
+git commit -m "Update Flickee legal pages"
 git branch -M main
 git remote add origin https://github.com/will-miraglia/flickme-legal.git
 git push -u origin main
@@ -69,7 +69,7 @@ If any 404s, double-check the repo is public, the branch is `main`, and the sour
 When you change any of the legal documents in `appstore-submission/*.md`, regenerate the HTML and push:
 
 ```bash
-# From the FlickMe folder root:
+# From the repo folder root:
 python3 - <<'EOF'
 import subprocess
 subprocess.run(["python3", "/path/to/build_site.py"])  # see appstore-submission/scripts if regenerated
