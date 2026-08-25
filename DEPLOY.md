@@ -33,7 +33,7 @@ Open Terminal at this folder and run (replace nothing — these commands are cor
 cd /Users/willmiraglia/Documents/Work/FlickMe/flickme-legal
 git init
 git add .
-git commit -m "Update Flickee legal pages"
+git commit -m "Update FlickMe Chat legal pages"
 git branch -M main
 git remote add origin https://github.com/will-miraglia/flickme-legal.git
 git push -u origin main
